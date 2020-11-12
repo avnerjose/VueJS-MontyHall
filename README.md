@@ -1,4 +1,6 @@
-# montyhall
+# Monty Hall Problem 
+
+This project is a MontyHall problem implementation using VueJS. This is not an original project, it is from Cod3r's Udemy course. 
 
 ## Project setup
 ```
