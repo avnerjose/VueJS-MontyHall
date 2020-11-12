@@ -2,7 +2,7 @@
 
 This project is a MontyHall problem implementation using VueJS. This is not an original project, it is from Cod3r's Udemy course. 
 
-##How does Monty Hall works? 
+## How does Monty Hall works? 
 
 In this litle game you are suposed to choose de amount of doors you want to, and choose  the one that will have a gift inside.
 After that, you can ask someone to choose one of the doors, the person needs to try to find the gift. 
