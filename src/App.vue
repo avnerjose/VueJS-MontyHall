@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <h1>Problema de Monty Hall</h1>
+    <h1>Monty Hall's problem</h1>
     <div class="form">
       <div v-if="!started">
-        <label for="doorAmount">Quantas Portas?</label>
+        <label for="doorAmount">How many doors?</label>
         <input
           type="text"
           id="doorAmount"
@@ -12,12 +12,12 @@
             >
       </div>
       <div v-if="!started">
-          <label for="selectedDoor">Qual a porta premiada?</label>
+          <label for="selectedDoor">What's the winning door?</label>
           <input type="text" id="selectedDoor" size="3"
           v-model.number="selectedDoor">
       </div>
-      <button v-if="!started" @click="started=true">Iniciar</button>
-      <button v-if="started" @click="started=false">Reiniciar</button>
+      <button v-if="!started" @click="started=true">Start</button>
+      <button v-if="started" @click="started=false">Restart</button>
     </div>
     <div class="doors" v-if="started">
         <div v-for="i in doorAmount" :key="i">
@@ -49,7 +49,7 @@ export default {
 }
 body {
   color: #FFF;
-  background-color: #C0C0C0;
+  background-color: #000;
 }
 #app {
   display: flex;
@@ -58,8 +58,10 @@ body {
 }
 #app h1 {
   border: 1px solid #000;
-  background-color: #0004;
+  background-color:#52057b;
+  border: 1px solid #FFF;
   padding: 20px;
+  border-radius: 16px;
   margin-bottom: 60px;
 }
 .form{
@@ -74,12 +76,29 @@ body {
     font-size: 2rem;
 
 }
+.form button{
+  background-color: #bc6ff1;
+  padding: 16px 64px;
+  border-radius: 16px;
+  color:#FFF;
+  text-transform: uppercase;
+  outline: none;
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+}
 .doors{
     align-self: stretch;
     display: flex;
     justify-content: space-around;
 
     flex-wrap: wrap;
-
+}
+input{
+  margin-left: 12px;
+  outline: none;
+  text-align: end;
+  border-radius: 16px;
+  padding:  0 8px;
 }
 </style>
