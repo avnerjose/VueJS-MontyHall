@@ -24,6 +24,7 @@ The secret of this game if that most times, if you change you choice at the end 
 5 - Click on the door's knob to open the door and reveal what is inside
 
 ![picture1](https://github.com/avnerjose/VueJS-MontyHall/blob/main/picture1.png)
+![picture2](https://github.com/avnerjose/VueJS-MontyHall/blob/main/picture2.png)
 
 
 
