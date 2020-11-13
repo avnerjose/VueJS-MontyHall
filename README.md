@@ -15,6 +15,15 @@ if the door is empty the person lost the game.
 
 The secret of this game if that most times, if you change you choice at the end you have bigger chances to win. 
 
+## How to use this project? 
+
+1 - Choose the amount of doors
+2 - Choose the winning door 
+3 - Start the game
+4 - Click on a door to select it
+5 - Click on the door's knob to open the door and reveal what is inside
+
+
 
 
 ## Project setup
